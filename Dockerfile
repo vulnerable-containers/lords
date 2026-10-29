@@ -1,4 +1,4 @@
-FROM php:8.2.25-apache
+FROM php:8.2.35-apache
 RUN apt-get update && apt-get install -y \
         libfreetype6-dev \
         libjpeg62-turbo-dev \
